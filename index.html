@@ -530,198 +530,8 @@ Claude: "이해했습니다. 범용적인 회고 리포트를 생성합니다...
             </div>
         </div>
 
-        <!-- 슬라이드 5: Skills 활용 예시 -->
+        <!-- 슬라이드 5: Skills 파일 구조 -->
         <div class="slide" data-slide="4">
-            <div class="slide-content">
-                <div class="content-area">
-                    <div style="width: 100%;">
-                        <h2 style="text-align: center; margin-bottom: 10px;">🎉 Skills 활용 예시</h2>
-                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 30px; opacity: 0.8;">똑같은 요청, 완전히 다른 결과</p>
-
-                        <div class="example-section" style="width: 100%;">
-                            <div class="code">사용자: "스프린트 회고 만들어줘"
-
-Claude: *sprint-retrospective-skill 자동 활성화*
-        "우리 팀의 회고 템플릿으로 전문적인 리포트를 생성합니다"
-
-결과: ✨ 완벽한 맞춤형 회고 리포트
-      - 팀 속도 자동 계산
-      - 우리만의 메트릭 분석  
-      - 경영진용 요약 포함
-      - 일관된 브랜드 톤앤매너</div>
-
-                            <div style="text-align: center; margin-top: 30px;">
-                                <div class="metric">
-                                    <span class="metric-number">MCP</span>
-                                    <span class="metric-label">데이터 연결</span>
-                                </div>
-                                <span style="font-size: 3rem; margin: 0 30px; opacity: 0.7;">+</span>
-                                <div class="metric">
-                                    <span class="metric-number">Skills</span>
-                                    <span class="metric-label">전문 지식</span>
-                                </div>
-                                <span style="font-size: 3rem; margin: 0 30px; opacity: 0.7;">=</span>
-                                <div class="metric">
-                                    <span class="metric-number">완벽</span>
-                                    <span class="metric-label">자동화</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 슬라이드 6: Before vs After 테이블 -->
-        <div class="slide" data-slide="5">
-            <div class="slide-content">
-                <div class="content-area">
-                    <div style="width: 100%;">
-                        <h2 style="text-align: center; margin-bottom: 10px;">⚖️ Before vs After</h2>
-                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 30px; opacity: 0.8;">무엇이 달라지는가?</p>
-
-                        <table class="comparison-table">
-                            <thead>
-                                <tr>
-                                    <th>비교 항목</th>
-                                    <th>기존 방식 (Before)</th>
-                                    <th>Skills 활용 (After)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><strong>토큰 사용량</strong></td>
-                                    <td>🔴 많음 (매번 긴 설명)</td>
-                                    <td>🟢 적음 (스킬명만 호출)</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>결과물 품질</strong></td>
-                                    <td>🔴 범용적, 일반적</td>
-                                    <td>🟢 전문적, 맞춤형</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>일관성</strong></td>
-                                    <td>🔴 매번 다름</td>
-                                    <td>🟢 표준화된 품질</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>재사용성</strong></td>
-                                    <td>🔴 매번 새로 설명</td>
-                                    <td>🟢 한 번 만들면 지속 활용</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>학습 누적</strong></td>
-                                    <td>🔴 세션마다 리셋</td>
-                                    <td>🟢 조직 지식 축적</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>현재 상태</strong></td>
-                                    <td>🔴 -</td>
-                                    <td>🟡 베타 기능 (2025.10.16~)</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 슬라이드 7: Before vs After 코드 -->
-        <div class="slide" data-slide="6">
-            <div class="slide-content">
-                <div class="content-area">
-                    <div style="width: 100%;">
-                        <h2 style="text-align: center; margin-bottom: 10px;">📝 구체적인 차이점</h2>
-                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 30px; opacity: 0.8;">코드로 보는 Before vs After</p>
-
-                        <div class="grid">
-                            <div class="box before">
-                                <h3>📉 기존 방식의 한계</h3>
-                                <div class="code">매 요청마다:
-
-"Jira 스프린트 데이터를 가져와서 
-다음 구조로 회고 리포트를 만들어줘:
-
-1. 스프린트 목표 달성도
-2. 번다운 차트 분석  
-3. 완료/미완료 티켓 분석
-4. 버그 발생 현황
-5. 팀 속도(Velocity) 계산
-6. 블로커 분석
-7. 다음 스프린트 개선점
-
-그리고 우리 팀은 보수적인 톤을 
-선호하고..."
-
-→ 매번 긴 컨텍스트 설명 필요 😵</div>
-                            </div>
-
-                            <div class="box after">
-                                <h3>📈 Skills 방식의 효율성</h3>
-                                <div class="code">Skills 파일에 미리 정의:
-
-✓ 회고 리포트 템플릿
-✓ 중요 메트릭 정의  
-✓ 조직 문화 톤앤매너
-✓ 경영진/개발팀별 포맷
-
-사용자: "스프린트 회고 만들어줘"
-
-Claude: *sprint-retrospective-skill 활성화*
-
-→ 간결한 명령으로 실행 ✨
-→ 전문가 수준 결과물 🎯</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 슬라이드 8: 기대 효과 -->
-        <div class="slide" data-slide="7">
-            <div class="slide-content">
-                <div class="content-area">
-                    <div style="width: 100%;">
-                        <h2 style="text-align: center; margin-bottom: 10px;">🚀 Skills 도입의 기대 효과</h2>
-                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 30px; opacity: 0.8;">베타 기능의 잠재적 가치와 미래 전망</p>
-
-                        <div class="grid">
-                            <div class="box solution">
-                                <h3>📈 기대 효과</h3>
-                                <div style="text-align: center;">
-                                    <div class="metric">
-                                        <span class="metric-number">효율성</span>
-                                        <span class="metric-label">토큰 사용 최적화</span>
-                                    </div>
-                                    <div class="metric">
-                                        <span class="metric-number">생산성</span>
-                                        <span class="metric-label">반복 작업 단축</span>
-                                    </div>
-                                    <div class="metric">
-                                        <span class="metric-number">일관성</span>
-                                        <span class="metric-label">표준화된 품질</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="box after">
-                                <h3>🎯 핵심 가치</h3>
-                                <ul>
-                                    <li class="check"><strong>컨텍스트 효율성:</strong> 반복 설명 최소화</li>
-                                    <li class="check"><strong>조직 지식 축적:</strong> 베스트 프랙티스 보존</li>
-                                    <li class="check"><strong>맞춤형 AI:</strong> 조직별 특화 기능</li>
-                                    <li class="check"><strong>확장성:</strong> 새로운 업무 영역으로 확장</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 슬라이드 9: Skills 파일 구조 -->
-        <div class="slide" data-slide="8">
             <div class="slide-content">
                 <div class="content-area">
                     <div style="width: 100%;">
@@ -780,54 +590,8 @@ description: "Jira 데이터로 팀 회고 리포트 생성"
             </div>
         </div>
 
-        <!-- 슬라이드 10: 첫 번째 Skills 만들기 -->
-        <div class="slide" data-slide="9">
-            <div class="slide-content">
-                <div class="content-area">
-                    <div style="width: 100%;">
-                        <h2 style="text-align: center; margin-bottom: 8px;">🛠️ 첫 번째 Skills 만들기</h2>
-                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 25px; opacity: 0.8;">간단한 예시로 시작해보세요</p>
-
-                        <div class="example-section" style="width: 100%; padding: 25px; margin: 15px 0;">
-                            <h3 style="color: #27ae60; margin-bottom: 15px; font-size: 1.6rem;">🎯 실습: "일일 스탠드업 요약" Skills</h3>
-                            
-                            <div style="background: white; padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 6px solid #3498db;">
-                                <h4 style="font-size: 1.2rem; margin-bottom: 10px; color: #2c3e50;">1단계: 폴더 생성</h4>
-                                <div class="code" style="padding: 15px; font-size: 1rem;">mkdir daily-standup-skill
-cd daily-standup-skill</div>
-                            </div>
-
-                            <div style="background: white; padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 6px solid #27ae60;">
-                                <h4 style="font-size: 1.2rem; margin-bottom: 10px; color: #2c3e50;">2단계: SKILL.md 작성</h4>
-                                <div class="code" style="padding: 15px; font-size: 0.95rem;">---
-name: "일일 스탠드업 요약"
-description: "팀 스탠드업 미팅 내용을 구조화된 요약으로 정리"
----
-
-## 역할
-스탠드업 미팅 내용을 받아서 다음 형식으로 정리:
-- 어제 완료한 일 / 오늘 할 일 / 블로커 및 도움 요청
-
-## 출력 형식
-### 📅 [날짜] 스탠드업 요약
-**참석자:** [팀원 목록]
-**주요 진행사항:** [요약 내용]
-**블로커:** [해결 필요한 이슈들]</div>
-                            </div>
-
-                            <div style="background: white; padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 6px solid #9b59b6;">
-                                <h4 style="font-size: 1.2rem; margin-bottom: 10px; color: #2c3e50;">3단계: 테스트</h4>
-                                <p style="font-size: 1.1rem; margin-bottom: 8px;"><strong>사용자:</strong> "오늘 스탠드업 내용 정리해줘"</p>
-                                <p style="font-size: 1rem; color: #7f8c8d;">→ Claude가 daily-standup-skill을 자동 로드하여 정해진 형식으로 요약 생성</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 슬라이드 11: MCP + Skills 통합 워크플로우 -->
-        <div class="slide" data-slide="10">
+        <!-- 슬라이드 6: MCP + Skills 통합 워크플로우 -->
+        <div class="slide" data-slide="5">
             <div class="slide-content">
                 <div class="content-area">
                     <div style="width: 100%;">
@@ -888,8 +652,148 @@ description: "팀 스탠드업 미팅 내용을 구조화된 요약으로 정리
             </div>
         </div>
 
-        <!-- 슬라이드 12: 베타 제약사항 및 실제 시작 방법 -->
-        <div class="slide" data-slide="11">
+        <!-- 슬라이드 7: Skills 활용 예시 -->
+        <div class="slide" data-slide="6">
+            <div class="slide-content">
+                <div class="content-area">
+                    <div style="width: 100%;">
+                        <h2 style="text-align: center; margin-bottom: 10px;">🎉 Skills 활용 예시</h2>
+                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 30px; opacity: 0.8;">똑같은 요청, 완전히 다른 결과</p>
+
+                        <div class="example-section" style="width: 100%;">
+                            <div class="code">사용자: "스프린트 회고 만들어줘"
+
+Claude: *sprint-retrospective-skill 자동 활성화*
+        "우리 팀의 회고 템플릿으로 전문적인 리포트를 생성합니다"
+
+결과: ✨ 완벽한 맞춤형 회고 리포트
+      - 팀 속도 자동 계산
+      - 우리만의 메트릭 분석  
+      - 경영진용 요약 포함
+      - 일관된 브랜드 톤앤매너</div>
+
+                            <div style="text-align: center; margin-top: 30px;">
+                                <div class="metric">
+                                    <span class="metric-number">MCP</span>
+                                    <span class="metric-label">데이터 연결</span>
+                                </div>
+                                <span style="font-size: 3rem; margin: 0 30px; opacity: 0.7;">+</span>
+                                <div class="metric">
+                                    <span class="metric-number">Skills</span>
+                                    <span class="metric-label">전문 지식</span>
+                                </div>
+                                <span style="font-size: 3rem; margin: 0 30px; opacity: 0.7;">=</span>
+                                <div class="metric">
+                                    <span class="metric-number">완벽</span>
+                                    <span class="metric-label">자동화</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 슬라이드 8: Before vs After 비교 -->
+        <div class="slide" data-slide="7">
+            <div class="slide-content">
+                <div class="content-area">
+                    <div style="width: 100%;">
+                        <h2 style="text-align: center; margin-bottom: 10px;">📝 구체적인 차이점</h2>
+                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 30px; opacity: 0.8;">코드로 보는 Before vs After</p>
+
+                        <div class="grid">
+                            <div class="box before">
+                                <h3>📉 기존 방식의 한계</h3>
+                                <div class="code">매 요청마다:
+
+"Jira 스프린트 데이터를 가져와서 
+다음 구조로 회고 리포트를 만들어줘:
+
+1. 스프린트 목표 달성도
+2. 번다운 차트 분석  
+3. 완료/미완료 티켓 분석
+4. 버그 발생 현황
+5. 팀 속도(Velocity) 계산
+6. 블로커 분석
+7. 다음 스프린트 개선점
+
+그리고 우리 팀은 보수적인 톤을 
+선호하고..."
+
+→ 매번 긴 컨텍스트 설명 필요 😵</div>
+                            </div>
+
+                            <div class="box after">
+                                <h3>📈 Skills 방식의 효율성</h3>
+                                <div class="code">Skills 파일에 미리 정의:
+
+✓ 회고 리포트 템플릿
+✓ 중요 메트릭 정의  
+✓ 조직 문화 톤앤매너
+✓ 경영진/개발팀별 포맷
+
+사용자: "스프린트 회고 만들어줘"
+
+Claude: *sprint-retrospective-skill 활성화*
+
+→ 간결한 명령으로 실행 ✨
+→ 전문가 수준 결과물 🎯</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 슬라이드 9: 첫 번째 Skills 만들기 -->
+        <div class="slide" data-slide="8">
+            <div class="slide-content">
+                <div class="content-area">
+                    <div style="width: 100%;">
+                        <h2 style="text-align: center; margin-bottom: 8px;">🛠️ 첫 번째 Skills 만들기</h2>
+                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 25px; opacity: 0.8;">간단한 예시로 시작해보세요</p>
+
+                        <div class="example-section" style="width: 100%; padding: 25px; margin: 15px 0;">
+                            <h3 style="color: #27ae60; margin-bottom: 15px; font-size: 1.6rem;">🎯 실습: "일일 스탠드업 요약" Skills</h3>
+                            
+                            <div style="background: white; padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 6px solid #3498db;">
+                                <h4 style="font-size: 1.2rem; margin-bottom: 10px; color: #2c3e50;">1단계: 폴더 생성</h4>
+                                <div class="code" style="padding: 15px; font-size: 1rem;">mkdir daily-standup-skill
+cd daily-standup-skill</div>
+                            </div>
+
+                            <div style="background: white; padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 6px solid #27ae60;">
+                                <h4 style="font-size: 1.2rem; margin-bottom: 10px; color: #2c3e50;">2단계: SKILL.md 작성</h4>
+                                <div class="code" style="padding: 15px; font-size: 0.95rem;">---
+name: "일일 스탠드업 요약"
+description: "팀 스탠드업 미팅 내용을 구조화된 요약으로 정리"
+---
+
+## 역할
+스탠드업 미팅 내용을 받아서 다음 형식으로 정리:
+- 어제 완료한 일 / 오늘 할 일 / 블로커 및 도움 요청
+
+## 출력 형식
+### 📅 [날짜] 스탠드업 요약
+**참석자:** [팀원 목록]
+**주요 진행사항:** [요약 내용]
+**블로커:** [해결 필요한 이슈들]</div>
+                            </div>
+
+                            <div style="background: white; padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 6px solid #9b59b6;">
+                                <h4 style="font-size: 1.2rem; margin-bottom: 10px; color: #2c3e50;">3단계: 테스트</h4>
+                                <p style="font-size: 1.1rem; margin-bottom: 8px;"><strong>사용자:</strong> "오늘 스탠드업 내용 정리해줘"</p>
+                                <p style="font-size: 1rem; color: #7f8c8d;">→ Claude가 daily-standup-skill을 자동 로드하여 정해진 형식으로 요약 생성</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 슬라이드 10: 베타 제약사항 및 실제 시작 방법 -->
+        <div class="slide" data-slide="9">
             <div class="slide-content">
                 <div class="content-area">
                     <div style="width: 100%;">
@@ -934,8 +838,8 @@ description: "팀 스탠드업 미팅 내용을 구조화된 요약으로 정리
             </div>
         </div>
 
-        <!-- 슬라이드 13: 최종 메시지 -->
-        <div class="slide" data-slide="12">
+        <!-- 슬라이드 11: 최종 메시지 -->
+        <div class="slide" data-slide="10">
             <div class="slide-content">
                 <div class="content-area">
                     <div class="final-message" style="margin-top: 0;">
@@ -971,13 +875,11 @@ description: "팀 스탠드업 미팅 내용을 구조화된 요약으로 정리
         <div class="nav-dot" onclick="goToSlide(8)"></div>
         <div class="nav-dot" onclick="goToSlide(9)"></div>
         <div class="nav-dot" onclick="goToSlide(10)"></div>
-        <div class="nav-dot" onclick="goToSlide(11)"></div>
-        <div class="nav-dot" onclick="goToSlide(12)"></div>
     </div>
 
     <script>
         let currentSlide = 0;
-        const totalSlides = 13;
+        const totalSlides = 11;
 
         function showSlide(n) {
             const slides = document.querySelectorAll('.slide');
