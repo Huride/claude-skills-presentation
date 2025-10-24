@@ -785,46 +785,40 @@ description: "Jira 데이터로 팀 회고 리포트 생성"
             <div class="slide-content">
                 <div class="content-area">
                     <div style="width: 100%;">
-                        <h2 style="text-align: center; margin-bottom: 10px;">🛠️ 첫 번째 Skills 만들기</h2>
-                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 30px; opacity: 0.8;">간단한 예시로 시작해보세요</p>
+                        <h2 style="text-align: center; margin-bottom: 8px;">🛠️ 첫 번째 Skills 만들기</h2>
+                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 25px; opacity: 0.8;">간단한 예시로 시작해보세요</p>
 
-                        <div class="example-section" style="width: 100%;">
-                            <h3 style="color: #27ae60; margin-bottom: 20px; font-size: 1.8rem;">🎯 실습: "일일 스탠드업 요약" Skills</h3>
+                        <div class="example-section" style="width: 100%; padding: 25px; margin: 15px 0;">
+                            <h3 style="color: #27ae60; margin-bottom: 15px; font-size: 1.6rem;">🎯 실습: "일일 스탠드업 요약" Skills</h3>
                             
-                            <div style="background: white; padding: 30px; border-radius: 15px; margin: 20px 0; border-left: 8px solid #3498db;">
-                                <h4 style="font-size: 1.4rem; margin-bottom: 15px; color: #2c3e50;">1단계: 폴더 생성</h4>
-                                <div class="code">mkdir daily-standup-skill
+                            <div style="background: white; padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 6px solid #3498db;">
+                                <h4 style="font-size: 1.2rem; margin-bottom: 10px; color: #2c3e50;">1단계: 폴더 생성</h4>
+                                <div class="code" style="padding: 15px; font-size: 1rem;">mkdir daily-standup-skill
 cd daily-standup-skill</div>
                             </div>
 
-                            <div style="background: white; padding: 30px; border-radius: 15px; margin: 20px 0; border-left: 8px solid #27ae60;">
-                                <h4 style="font-size: 1.4rem; margin-bottom: 15px; color: #2c3e50;">2단계: SKILL.md 작성</h4>
-                                <div class="code">---
+                            <div style="background: white; padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 6px solid #27ae60;">
+                                <h4 style="font-size: 1.2rem; margin-bottom: 10px; color: #2c3e50;">2단계: SKILL.md 작성</h4>
+                                <div class="code" style="padding: 15px; font-size: 0.95rem;">---
 name: "일일 스탠드업 요약"
 description: "팀 스탠드업 미팅 내용을 구조화된 요약으로 정리"
 ---
 
-# 스탠드업 요약 Skills
-
 ## 역할
 스탠드업 미팅 내용을 받아서 다음 형식으로 정리:
-- 어제 완료한 일
-- 오늘 할 일  
-- 블로커 및 도움 요청
+- 어제 완료한 일 / 오늘 할 일 / 블로커 및 도움 요청
 
 ## 출력 형식
 ### 📅 [날짜] 스탠드업 요약
 **참석자:** [팀원 목록]
-**주요 진행사항:**
-- [요약 내용]
-**블로커:**
-- [해결 필요한 이슈들]</div>
+**주요 진행사항:** [요약 내용]
+**블로커:** [해결 필요한 이슈들]</div>
                             </div>
 
-                            <div style="background: white; padding: 30px; border-radius: 15px; margin: 20px 0; border-left: 8px solid #9b59b6;">
-                                <h4 style="font-size: 1.4rem; margin-bottom: 15px; color: #2c3e50;">3단계: 테스트</h4>
-                                <p style="font-size: 1.2rem; margin-bottom: 10px;">사용자: "오늘 스탠드업 내용 정리해줘"</p>
-                                <p style="font-size: 1.1rem; color: #7f8c8d;">Claude가 daily-standup-skill을 자동 로드하여 정해진 형식으로 요약 생성</p>
+                            <div style="background: white; padding: 20px; border-radius: 12px; margin: 15px 0; border-left: 6px solid #9b59b6;">
+                                <h4 style="font-size: 1.2rem; margin-bottom: 10px; color: #2c3e50;">3단계: 테스트</h4>
+                                <p style="font-size: 1.1rem; margin-bottom: 8px;"><strong>사용자:</strong> "오늘 스탠드업 내용 정리해줘"</p>
+                                <p style="font-size: 1rem; color: #7f8c8d;">→ Claude가 daily-standup-skill을 자동 로드하여 정해진 형식으로 요약 생성</p>
                             </div>
                         </div>
                     </div>
@@ -837,36 +831,40 @@ description: "팀 스탠드업 미팅 내용을 구조화된 요약으로 정리
             <div class="slide-content">
                 <div class="content-area">
                     <div style="width: 100%;">
-                        <h2 style="text-align: center; margin-bottom: 10px;">🔗 MCP + Skills 통합 워크플로우</h2>
-                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 30px; opacity: 0.8;">완전한 자동화의 비밀</p>
+                        <h2 style="text-align: center; margin-bottom: 8px;">🔗 MCP + Skills 통합 워크플로우</h2>
+                        <p style="font-size: 1.6rem; text-align: center; margin-bottom: 25px; opacity: 0.8;">완전한 자동화의 비밀</p>
 
-                        <div style="background: rgba(255,255,255,0.1); border-radius: 20px; padding: 30px; margin: 20px 0;">
-                            <div style="text-align: center; margin-bottom: 30px;">
-                                <div style="display: inline-block; background: #3498db; color: white; padding: 15px 25px; border-radius: 15px; margin: 10px; font-weight: bold;">
-                                    1️⃣ 사용자 요청
+                        <div style="background: rgba(255,255,255,0.1); border-radius: 20px; padding: 25px; margin: 15px 0;">
+                            <div style="text-align: center; margin-bottom: 25px;">
+                                <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 15px;">
+                                    <div style="background: #3498db; color: white; padding: 12px 20px; border-radius: 12px; font-weight: bold; font-size: 1rem;">
+                                        1️⃣ 사용자 요청
+                                    </div>
+                                    <div style="font-size: 1.5rem; opacity: 0.7;">→</div>
+                                    <div style="background: #e74c3c; color: white; padding: 12px 20px; border-radius: 12px; font-weight: bold; font-size: 1rem;">
+                                        2️⃣ Skills 활성화
+                                    </div>
+                                    <div style="font-size: 1.5rem; opacity: 0.7;">→</div>
+                                    <div style="background: #f39c12; color: white; padding: 12px 20px; border-radius: 12px; font-weight: bold; font-size: 1rem;">
+                                        3️⃣ MCP 데이터 수집
+                                    </div>
                                 </div>
-                                <div style="margin: 10px; font-size: 2rem;">↓</div>
-                                <div style="display: inline-block; background: #e74c3c; color: white; padding: 15px 25px; border-radius: 15px; margin: 10px; font-weight: bold;">
-                                    2️⃣ Skills 활성화
-                                </div>
-                                <div style="margin: 10px; font-size: 2rem;">↓</div>
-                                <div style="display: inline-block; background: #f39c12; color: white; padding: 15px 25px; border-radius: 15px; margin: 10px; font-weight: bold;">
-                                    3️⃣ MCP로 데이터 수집
-                                </div>
-                                <div style="margin: 10px; font-size: 2rem;">↓</div>
-                                <div style="display: inline-block; background: #27ae60; color: white; padding: 15px 25px; border-radius: 15px; margin: 10px; font-weight: bold;">
-                                    4️⃣ Skills 템플릿 적용
-                                </div>
-                                <div style="margin: 10px; font-size: 2rem;">↓</div>
-                                <div style="display: inline-block; background: #8e44ad; color: white; padding: 15px 25px; border-radius: 15px; margin: 10px; font-weight: bold;">
-                                    5️⃣ 맞춤형 결과 생성
+                                <div style="margin: 15px 0; font-size: 1.5rem; opacity: 0.7;">↓</div>
+                                <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 15px;">
+                                    <div style="background: #27ae60; color: white; padding: 12px 20px; border-radius: 12px; font-weight: bold; font-size: 1rem;">
+                                        4️⃣ Skills 템플릿 적용
+                                    </div>
+                                    <div style="font-size: 1.5rem; opacity: 0.7;">→</div>
+                                    <div style="background: #8e44ad; color: white; padding: 12px 20px; border-radius: 12px; font-weight: bold; font-size: 1rem;">
+                                        5️⃣ 맞춤형 결과 생성
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="grid">
-                            <div class="box solution">
-                                <h3>🤖 MCP의 역할</h3>
+                        <div class="grid" style="gap: 30px;">
+                            <div class="box solution" style="padding: 25px;">
+                                <h3 style="margin-bottom: 15px;">🤖 MCP의 역할</h3>
                                 <ul>
                                     <li class="check">실시간 데이터 수집</li>
                                     <li class="check">외부 시스템 연동</li>
@@ -875,8 +873,8 @@ description: "팀 스탠드업 미팅 내용을 구조화된 요약으로 정리
                                 </ul>
                             </div>
 
-                            <div class="box after">
-                                <h3>🧠 Skills의 역할</h3>
+                            <div class="box after" style="padding: 25px;">
+                                <h3 style="margin-bottom: 15px;">🧠 Skills의 역할</h3>
                                 <ul>
                                     <li class="check">도메인 전문 지식</li>
                                     <li class="check">조직 맞춤 템플릿</li>
